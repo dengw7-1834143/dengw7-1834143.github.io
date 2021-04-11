@@ -2,12 +2,29 @@
 <html>
     <head>
         <title>HTML TAGS WORKSHOP</title>
-        <link rel="stylesheet" href="stylesheet.css"
+        <link rel="stylesheet" href="stylesheet.css">
+        <style>
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        /*center text*/
+            .centered {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 40px;
+            }
+        </style>
     </head>     
     <body>
         <h1>HTML Tags Workshop</h1>
         <p id="p1">I hope I can go to Los Angeles this weekend because I want to visit my cousin again.</p>
         <p id="p2">I also hope the world can get back to normal soon.</p>
+        <p id="p3">I wanna go back to campus.</p>
 
         <h2>Nice Pictures</h2>
         <a href="https://en.wikipedia.org/wiki/Sushi">
@@ -15,3 +32,17 @@
         </a>
         <a href="https://en.wikipedia.org/wiki/Maleficent_(film)">
             <img src="https://upload.wikimedia.org/wikipedia/en/5/55/Maleficent_poster.jpg" title="Maleficent">
+        </a>
+
+        <h3>UW Campus Photo</h3>
+        <a href="https://www.washington.edu/diversity/affinity/glbtqfs/"></a>
+            <img src="https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/48/2013/04/06201217/UW-Campus_0021_cropped.png" title="UW" style="margin:20px 20px 20px 20px">
+        </a>
+
+        <h4>Text is centered on the photo</h4>
+        <div class="container">
+            <img src="https://i.ytimg.com/vi/GWy2_kwav6M/maxresdefault.jpg" alt="UW" Style="width:500px;height:500px ; margin: 5px; ">
+            <div class="centered" >UW Seattle</div>
+        </div>
+    </body>
+</html>
