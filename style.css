@@ -34,8 +34,8 @@ html {
 }
 
 body {
-     color: #918a8a;
-     font-size: 20px;
+     color: #666666;
+     font-size: 14px;
      font-family: Raleway;
      line-height: 1.80857;
      font-weight: normal;
@@ -43,7 +43,7 @@ body {
 }
 
 a {
-     color: #1d1b1b;
+     color: #1f1f1f;
      text-decoration: none !important;
      outline: none !important;
      -webkit-transition: all .3s ease-in-out;
@@ -74,11 +74,11 @@ h1 {
 }
 
 h2 {
-     font-size: 26px
+     font-size: 22px
 }
 
 h3 {
-     font-size: 20px
+     font-size: 18px
 }
 
 h4 {
@@ -86,11 +86,11 @@ h4 {
 }
 
 h5 {
-     font-size: 16px
+     font-size: 14px
 }
 
 h6 {
-     font-size: 14px
+     font-size: 13px
 }
 
 *,
@@ -107,7 +107,7 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-     color: #302d2d;
+     color: #212121;
      text-decoration: none!important;
      opacity: 1
 }
@@ -127,12 +127,12 @@ ol {
 p {
      margin: 20px;
      font-weight: 300;
-     font-size: 16px;
+     font-size: 15px;
      line-height: 24px;
 }
 
 a {
-     color: #554f4f;
+     color: #222222;
      text-decoration: none;
      outline: none !important;
 }
@@ -170,15 +170,15 @@ img {
 }
 
 .lead {
-     font-size: 20px;
+     font-size: 18px;
      line-height: 30px;
-     color: #696666;
+     color: #767676;
      margin: 0;
      padding: 0;
 }
 
 .form-control:focus {
-     border-color: #e4d8d8 !important;
+     border-color: #ffffff !important;
      box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
 }
 
@@ -242,15 +242,15 @@ button {
     float: left;
     padding-right: 90px;
     font-size: 18px;
-    color: #ddcaca;
+    color: #ffffff;
 }
 
 .menu_text li a {
-    color: #ccc5c5;
+    color: #ffffff;
 }
 
 .menu_text li a:hover{
-    color: #e6d3d3;
+    color: #ffffff;
 }
 
 .overlay {
@@ -260,8 +260,8 @@ button {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(8, 8, 8);
-    background-color: rgba(8, 8, 8, 0.9);
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
     overflow-x: hidden;
     transition: 0.5s;
 }
@@ -276,7 +276,7 @@ button {
     padding: 0px;
     text-decoration: none;
     font-size: 22px;
-    color: #ebdcdc;
+    color: #f1f1f1;
     display: block;
     transition: 0.3s;
 }
@@ -298,7 +298,7 @@ button {
 .banner_section {
     width: 100%;
     float: left;
-    background-image: url(../images/JAY35.png);
+    background-image: url(../images/banner-bg.png);
     height: auto;
     background-size: contain;
     padding: 200px 0px 90px 0px;
@@ -309,7 +309,7 @@ button {
 .banner_taital {
     width: 100%;
     float: left;
-    background-color: #5c6574;
+    background-color: #626975;
     border-radius: 20px;
     padding: 20px 20px;
 }
@@ -319,7 +319,7 @@ button {
 	float: left;
 	font-weight: bold;
 	font-size: 60px;
-	color: #d4d1c8;
+	color: #fffcf4;
 	text-align: center;
 }
 
@@ -328,7 +328,7 @@ button {
 	float: left;
 	font-weight: bold;
 	font-size: 46px;
-	color: #09246e;
+	color: #03164c;
 	padding: 10px 30px;
 	text-align: center;
 }
@@ -337,7 +337,7 @@ button {
 	width: 100%;
 	float: left;
 	font-size: 20px;
-	color: #251e1e;
+	color: #060606;
 	text-align: center;
 }
 
@@ -352,14 +352,14 @@ button {
     margin: 0 auto;
     background-color: #03164c;
     padding: 10px 0px;
-    color: #dad5c8;
+    color: #fffcf4;
     text-align: center;
     border-radius: 10px;
     font-size: 20px;
 }
 
-.contact_bt a{ color: #aaa38f; }
-.contact_bt a:hover{ color: #d6d1c2; }
+.contact_bt a{ color: #fffcf4; }
+.contact_bt a:hover{ color: #fffcf4; }
 
 
 .carousel-control-prev-icon { background-image: url(../images/right-arrow.png); }
@@ -368,15 +368,15 @@ button {
     position: absolute;
     left: 11%;
     top: 390px;
-    background-color: rgb(219, 199, 199);
-    color: rgb(8, 8, 8);
+    background-color: #fff;
+    color: #000;
 }
 
 #my_Controls a.carousel-control-next {
     position: absolute;
     left: 5%;
     top: 390px;
-    background-color: #11296d;
+    background-color: #03164c;
 }
 
 .carousel-control-next-icon {
@@ -386,20 +386,20 @@ button {
 #my_Controls .carousel-control-prev, #my_Controls .carousel-control-next {
     width: 65px;
     height: 65px;
-    background: rgb(221, 213, 213);
+    background: #fff;
     opacity: 1;
     font-size: 30px;
-    color: #0b2a46;
+    color: #091e30;
     border-radius: 100%;
 }
 
 #my_Controls .carousel-control-prev, #my_Controls .carousel-control-next {
     width: 65px;
     height: 65px;
-    background: rgb(216, 204, 204);
+    background: #fff;
     opacity: 1;
     font-size: 30px;
-    color: #094172;
+    color: #091e30;
     border-radius: 100%;
 }
 
@@ -441,7 +441,7 @@ button {
     text-align: center;
     font-size: 40px;
     color: #0b0e13;
-    border-bottom: 1px solid #4e95be;
+    border-bottom: 1px solid #49bcfe;
     text-align: center;
 }
 
@@ -451,7 +451,7 @@ button {
     text-align: center;
     font-size: 40px;
     color: #0b0e13;
-    border-bottom: 1px solid #3a7ca3;
+    border-bottom: 1px solid #49bcfe;
     text-align: center;
 }
 
@@ -487,7 +487,7 @@ button {
 }
 
 .about_bt a {
-    color: #ceb4b4;
+    color: #ffffff;
 }
 
 .about_bt a:hover{ color: #000; }
@@ -583,7 +583,7 @@ button {
 
 .seemore_bt a:hover {
     color: #fffcf4;
-    background-color: #f36507;
+    background-color: #fe6703;
     padding: 13px 41px;
     border-radius: 4px;
 }
